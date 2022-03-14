@@ -1,1 +1,1 @@
-# Page-project
+This is the Landing page project in Odin Project intro

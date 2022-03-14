@@ -1,0 +1,32 @@
+
+.header {
+    display: flex;
+    
+    padding: 12px;
+    background-color: #1f2937;
+    color: #eeeeee;
+}
+
+.info {
+    display:flex;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.header-left {
+    display: flex;
+   
+}
+
+.header-right {
+    display: flex;
+    gap: 8px;
+    margin-left: 20px;;
+
+}
