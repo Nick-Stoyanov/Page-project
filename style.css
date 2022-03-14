@@ -1,10 +1,15 @@
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
-    
-    padding: 12px;
+    justify-content: space-between;
     background-color: #1f2937;
     color: #eeeeee;
+    align-items: center;
 }
 
 .info {
@@ -12,6 +17,7 @@
     gap: 1rem;
     justify-content: center;
     align-content: center;
+    margin-top: 48px;
 }
 
 a {
@@ -20,13 +26,13 @@ a {
 }
 
 .header-left {
-    display: flex;
-   
+   margin-left: 24px;
 }
 
 .header-right {
     display: flex;
-    gap: 8px;
-    margin-left: 20px;;
+    margin-right: 24px;
+    gap: 12px;
+    font-size: 24px;
 
 }
