@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -7,7 +6,7 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header { 
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
@@ -18,21 +17,12 @@ body {
 a {
     text-decoration: none;
     color: #eeeeee;
-}
-
-.header-left {
-   margin-left: 24px;
-}
-
-.header-right {
-    display: flex;
-    margin-right: 24px;
     gap: 12px;
     font-size: 24px;
 
-}
+} 
 
-.info {
+/*.info {
     display:flex;
     gap: 1rem;
     justify-content: center;
@@ -52,8 +42,9 @@ a {
 }
 .firsth1,
 .firsth4 {
-    margin: 0;
-}
+    margin: 0; 
+} */
+
 .button1 {
     font-size: 24px;
     background-color: #3882f6;
