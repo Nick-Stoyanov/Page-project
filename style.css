@@ -4,25 +4,120 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    flex: 1;
+   
 }
 
 .header { 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1f2937;
     color: #eeeeee;
     align-items: center;
+    padding: 24px 128px 128px;
+    
 }
 
 a {
     text-decoration: none;
     color: #eeeeee;
-    gap: 12px;
-    font-size: 24px;
-
+    font-size: 18px;
+    margin-left: 12px;
 } 
 
-/*.info {
+.button1 {
+    font-size: 24px;
+    background-color: #3882f6;
+    color: #eeeeee;
+    border-radius: 12px;
+    padding: 8px 24px;
+    max-width: fit-content;
+    
+
+}
+.content {
+    display: flex;
+}
+
+.quote {
+     display: flex;
+     background-color: #e5e7eb;
+}
+
+footer {
+     margin-top: auto;
+     min-height: 50px;
+     display: flex;
+     justify-content: center;
+     background-color: #1f2937;
+    color: #eeeeee;
+    font-size: 24px;
+    align-items: center;
+}
+
+.firsth2,
+.firsth1,
+.firsth4 {
+    margin: 0;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    gap: 128px;
+   
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
+    height: 100%;
+    gap: 128px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: auto;
+    height: 250px;
+    justify-content: space-between;
+    margin-right: 96px;
+    
+}
+img {
+    border: 2px solid #eeeeee;
+    border-radius: 3px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*.info {
     display:flex;
     gap: 1rem;
     justify-content: center;
@@ -44,29 +139,3 @@ a {
 .firsth4 {
     margin: 0; 
 } */
-
-.button1 {
-    font-size: 24px;
-    background-color: #3882f6;
-    color: #eeeeee;
-    border-radius: 12px;
-    padding: 8px 24px;
-
-}
-.content {
-    display: flex;
-}
- .quote {
-     display: flex;
-     background-color: #e5e7eb;
- }
- footer {
-     margin-top: auto;
-     min-height: 50px;
-     display: flex;
-     justify-content: center;
-     background-color: #1f2937;
-    color: #eeeeee;
-    font-size: 24px;
-    align-items: center;
- }
