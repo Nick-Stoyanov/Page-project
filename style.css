@@ -3,8 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     display: flex;
-    flex-direction: column;
-    flex: 1; 
+    flex-direction: column; 
 }
 
 .header { 
@@ -13,7 +12,8 @@ body {
     background-color: #1f2937;
     color: #eeeeee;
     align-items: center;
-    padding: 24px 128px 128px; 
+    padding: 24px 128px 64px;
+    height: 100%;
 }
 
 a {
@@ -37,7 +37,8 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    padding: 24px 128px 128px;
+    padding: 24px 128px 64px;
+    height: 100%;
 }
 .content img {
     border: 6px solid #3882f6;
@@ -92,7 +93,7 @@ footer {
     align-items: flex-start;
     justify-content: space-between;
     height: 100%;
-    gap: 128px;
+    gap: 64px;
 }
 
 .right {
@@ -101,7 +102,7 @@ footer {
     align-items: flex-end;
     gap: 12px;
     height: 100%;
-    gap: 128px;
+    gap: 64px;
 }
 
 .text {
@@ -129,8 +130,9 @@ footer {
 }
 .quote {
     display: flex;
-    padding: 128px 128px 128px;
+    padding: 64px 128px 64px;
     flex-direction: row;
+    height: 100%;
 }
 
 .blockquote {
@@ -149,7 +151,14 @@ footer {
 
 }
 
-
+.lastpart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 128px 64px;
+    flex-direction: column;
+    height: 100%;
+}
 
 
 
